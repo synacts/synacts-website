@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <base target="_blank">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Synacts provides the reference implementation of the Digital ID Protocol and helps its clients build secure online services.">
-        <meta name="keywords" content="Synacts, Digital ID, digital identity, protocol, implementation, authorization framework, identity and access management, IAM">
 
         <title>Synacts</title>
+        <base target="_blank">
 
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -31,33 +29,6 @@
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-        <!-- Cookie consent prompt -->
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-        <script>
-            window.addEventListener("load", function(){
-                window.cookieconsent.initialise({
-                    "palette": {
-                        "popup": {
-                            "background": "#212529",
-                            "text": "#ffffff"
-                        },
-                        "button": {
-                            "background": "#be0000",
-                            "text": "#ffffff"
-                        }
-                    },
-                    "theme": "edgeless",
-                    "content": {
-                        "message": "We use Google Analytics with its cookies to measure how you interact with our website.",
-                        "dismiss": "Got it!",
-                        "link": "Learn more and how to opt-out.",
-                        "href": "https://support.google.com/analytics/answer/6004245"
-                    }
-                });
-            });
-        </script>
     </head>
     <body id="page-top">
 
@@ -70,7 +41,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#digitalid">Digital ID</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
@@ -78,108 +48,57 @@
             </div>
         </nav>
 
+        <!-- Header -->
         <header class="masthead text-center text-white d-flex">
             <div class="container my-auto">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
                         <h1 class="text-uppercase">
-                            <strong>We build an identity layer for the Internet</strong>
+                            <strong>
+                                We are experts for E-ID, email, and blockchain
+                            </strong>
                         </h1>
                         <hr>
                     </div>
-                    <div class="col-lg-7 mx-auto">
+                    <div class="col-lg-10 mx-auto">
                         <p class="mb-5">
-                            Synacts provides the reference implementation of the Digital ID
-                            Protocol and helps its clients build secure online services.
+                            Synacts offers seminars on the above topics and IT-security consulting.
                         </p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#digitalid">Find out more</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About us</a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section id="digitalid">
+        <!-- About -->
+        <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Digital ID</h2>
+                    <div class="col-lg-7 mx-auto text-center">
+                        <h2 class="section-heading">About</h2>
                         <hr class="my-4">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <i class="fas fa-4x fa-exchange-alt text-primary mb-3 sr-icon-1"></i>
-                            <h3 class="mb-3">Protocol</h3>
-                            <p class="text-muted mb-0">Learn about our DNS for<br />personal information</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <i class="fas fa-4x fa-book text-primary mb-3 sr-icon-2"></i>
-                            <h3 class="mb-3">Library</h3>
-                            <p class="text-muted mb-0">Build your own apps based<br />on our implementation</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <i class="fas fa-4x fa-cloud text-primary mb-3 sr-icon-3"></i>
-                            <h3 class="mb-3">Hosting</h3>
-                            <p class="text-muted mb-0">Run a Digital ID server and<br />host your data yourself</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <i class="fas fa-4x fa-globe-africa text-primary mb-3 sr-icon-4"></i>
-                            <h3 class="mb-3">Community</h3>
-                            <p class="text-muted mb-0">Contribute to the code and<br />support our mission</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mt-5 text-center">
-                        <a class="btn btn-primary btn-xl sr-button" href="https://www.digitalid.net">www.digitalid.net</a>
+                        <p class="mb-4">
+                            <a href="https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-263.887.385">Synacts GmbH</a> is a spin-off
+                            from <a href="https://www.ethz.ch/en/industry-and-society/entrepreneurship/spin-offs.html">ETH Zurich</a>
+                            and was in the second batch of the <a href="https://www.f10.ch/">F10 Fintech Incubator & Accelerator</a>.
+                            Its clients include <a href="https://www.six-group.com">SIX Group</a> and <a href="https://procivis.ch">Procivis</a>.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="bg-dark text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 mx-auto text-center">
-                        <h2 class="section-heading">About</h2>
-                        <hr class="my-4 light">
-                        <p class="mb-4"><a href="https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-263.887.385">Synacts GmbH</a> is a spin-off from <a href="https://www.ethz.ch/en/industry-and-society/entrepreneurship/spin-offs.html">ETH Zurich</a> and was in the second batch of the <a href="https://www.f10.ch/">F10 Fintech Incubator & Accelerator</a>. Its clients include <a href="https://www.six-group.com">SIX Group</a> and <a href="https://procivis.ch">Procivis</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-  
-        <section id="contact">
+        <!-- Contact -->
+        <section id="contact" class="bg-dark text-white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
                         <h2 class="section-heading">Contact</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Interested in what we do? Then don't hesitate to contact us!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 ml-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-                        <p><script type="text/javascript">
-                            document.write("<n uers=\"znvygb:vasb@flanpgf.pbz\" ery=\"absbyybj\">vasb@flanpgf.pbz</n>".replace(/[a-zA-Z]/g, 
-                            function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-                      </script></p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mr-auto text-center">
-                        <i class="fab fa-twitter fa-3x mb-3 sr-contact-4"></i>
-                        <p><a href="https://twitter.com/Synacts">@Synacts</a></p>
+                        <p>
+                            Are you interested in what we offer?
+                            Then don't hesitate to <a href="mailto:info@synacts.com">contact us</a>.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -196,13 +115,7 @@
         <!-- Custom scripts for this template -->
         <script src="js/creative.min.js"></script>
 
-        <!-- Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29309650-5"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-29309650-5');
-        </script>
+        <!-- Plausible Analytics -->
+        <script async src="js/plausible.min.js" data-domain="synacts.com" data-api="https://plausible.io/api/event"></script>
     </body>
 </html>
